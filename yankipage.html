@@ -1,51 +1,73 @@
+<!--Thıs websıte ıs Excellent!
+Thıs struture and theme of thıs websıte ıs great, ıt has some bıg font strıng and hıghlıght. Also have some lınk to your gıthub websıte and lınkın webgıte.
+Also have some useful vıdeo and ımages on ıt.
+To make thıs websıte better, my suggestıon ıs to add some lınks related to the topıcs, lıkes actıcles or news from another websıtes. Also, ıf you want to, you can add some code thatö
+when someone clınk the vıdeo lınk or websıte lınk, ıt wıll open a new tab ınstead of open ıt ın the same tab. It ıs more easıer for people to revıew both websıte. -->
 <!DOCTYPE html>
 <html lang="en-UK">
 <head>
 	<meta charset="UTF-8">
-	<title>Mayo | Quantum Computing</title>
+	<title>Quantum Computing</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style/style.css">
-</head> 
+</head>
+<style>
+
+<!--
+Attributes
+-->
+body {background-color: white}
+h1   {color: white;}
+.boxed {
+	border: 1px white ;
+	background-color: rgb(255,127,80);
+	}
+.application0 {
+    background-color: rgb(255,127,80);
+    height: 700px;
+	width: 700px;
+	float: left;
+}
+
+.application1 {
+    background-color: rgb(255,127,80);
+    height: 700px;
+	width: 700px;
+	float: right;
+}
+
+</style>
+<body>
 <!--
 NAVIGATION BAR SECTION
 -->
-		<div>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="index.html"><img src="resources/mayo.jpg" width="40" height="40" alt="">Mayo</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="machine_learning.html">Machine Learning<span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="jonathanpage.html">Computer Graphics</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="kamilpage.html">Computational Complexity</a>
-						</li>
-					   <li class="nav-item active">
-							<a class="nav-link" href="#">Quantum Computation</a>
-					   </li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-
-<!--
-INTRODUCTION AREA
--->
-
-		<div class="main">
-				<h1 style="font-size: 50px"><b>What is Quantum Computation?</b></h1>
-				<h2 style="font-size: 35px"><em></em></h2>
-				
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Contents</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Quantum Computation </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="jonathanpage.html">Computer Graphics and OpenGL </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Machine Learning </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kamilpage.html">P/NP Problem </a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <!--
 QUOTE SECTION
 -->
+<div class="boxed">
+	<h1 style="font-size:20px;">Starting with a quote</h1>
+</div>
 <div class="card">
   <div class="card-body">
     <blockquote class="blockquote mb-0">
@@ -54,14 +76,26 @@ QUOTE SECTION
     </blockquote>
   </div>
 </div>
-				
-				
-				<div class="text">
-				<p>Quantum computing is the area of study focused on developing computer technology based on the principles of quantum theory, which explains the nature and behavior of energy and matter on the quantum (atomic and subatomic) level. Development of a quantum computer, if practical, would mark a leap forward in computing capability far greater than that from the abacus to a modern day supercomputer, with performance gains in the billion-fold realm and beyond. The quantum computer, following the laws of quantum physics, would gain enormous processing power through the ability to be in multiple states, and to perform tasks using all possible permutations simultaneously.</p>
-				</div>
-		</div>
+<!--
+INTRODUCTION AREA
+-->
+<div class="boxed">
+	<h1 style="font-size:45px;text-decoration:underline;">What is Quantum Computation?</h1>
+	<p style="font-size:20px;">
+Quantum computing is the area of study focused on developing computer technology based on the principles of quantum theory,
+ which explains the nature and behavior of energy and matter on the quantum (atomic and subatomic) level.
+ Development of a quantum computer, if practical, would mark a leap forward in computing capability far greater than that from the abacus to a modern day supercomputer,
+ with performance gains in the billion-fold realm and beyond. The quantum computer, following the laws of quantum physics, would gain enormous processing power through the
+ ability to be in multiple states, and to perform tasks using all possible permutations simultaneously.</p>
+</div>
+
+<!--
+First Benefit
+-->
+
+<div class="application0">
 		<h1 style="font-size:45px;text-decoration:underline; text-align: center;">Machine Learning</h1>
-		<img src="resources/rise-of-AI-in-6-charts.jpg" alt="AI" style="width:700px;height:300px;">
+		<img src="rise-of-AI-in-6-charts.jpg" alt="AI" style="width:700px;height:300px;">
 		<p>
 		</p>
 		<p> Sampling from high-dimensional probability distributions is at the core of a wide spectrum of computational techniques with
@@ -73,32 +107,39 @@ QUOTE SECTION
 		time needed to process/analyze the road in order to stop in case of an emergency.
 		</p>
 		<p> To watch a video about it, please click here<a href="https://www.youtube.com/watch?v=ddGNiCAifGI"> HERE</a>
+		</div>
 
 <!--
 Second Benefit
 -->
+
 <div class="application1">
 		<h1 style="font-size:45px;text-decoration:underline; text-align: center;">Biomedical Simulations</h1>
-		<img src="resources/26-2.jpg" alt="Biomedical" style="width:700px;height:300px;">
-<p> Quantum chemistry is the science of understanding the complicated bonds and reactions of molecules using quantum mechanics.
+		<img src="26-2.jpg" alt="Biomedical" style="width:700px;height:300px;">
+		<p>
+		</p>
+		<p> Quantum chemistry is the science of understanding the complicated bonds and reactions of molecules using quantum mechanics.
 		The 'moving parts' of anything but the most-simple chemical processes are beyond the capacity of the biggest and fastest supercomputers.</p>
 		<p> By modelling and understanding these processes using quantum computers, scientists expect to unlock lower-energy pathways for chemical reactions, allowing the design of new catalysts.
 		This will have huge implications for industries, such as the production of fertilisers.</p>
 		<p> Other possible applications include the development of organic solar cells and better batteries
 		through improved materials and using new insights to design personalised medicines. </p>
 		<p> To watch a video about it, please click here<a href="https://www.youtube.com/watch?v=VfT4VmyUWso"> HERE</a>
+
 </div>
+
 <!--
 Author Information
 -->
+
 <div class="card w-100">
   <div class="card-body">
-    <h5 class="card-title">About the Author</h5>
-    <p class="card-text">Yanki Boran</p>
+    <h5 class="card-title">Author Information</h5>
+    <p class="card-text">Yanki Boran:</p>
     <p> Point of origin: Turkey </p>
     <p> Completed a foundation year in the UK </p>
     <p> Currently residing in Durham at Grey College </p>
-    <a href="https://www.linkedin.com/in/yankı-boran-ö-a52546101" class="btn btn-primary">LinkedIn</a> <!-- MY LINKEDIN ACCOUNT IS "https://www.linkedin.com/in/yankı-boran-ö-a52546101" -->
+    <a href="https://www.linkedin.com/in/yankı-boran-ö-a52546101" class="btn btn-primary">LinkedIn</a> 
 	<a href="https://github.com/yankiboran" class="btn btn-primary">GitHub</a>
   </div>
 </div>
