@@ -39,22 +39,20 @@
 				<h1 style="font-size: 50px"><b>The Potential Impact of the P/NP Problem</b></h1>
 				<h2 style="font-size: 35px"><em>Or, "How Curing Cancer Destroys Encryption."</em></h2>
 				<div class="text">
-				<p>Computational complexity theory tells us a lot about how difficult problems are, and how much more difficult they get when their inputs increase.</p>
+				<p><a href="https://www.youtube.com/watch?v=YX40hbAHx3s"> Computational complexity <a>theory tells us a lot about how difficult problems are, and how much more difficult they get when their inputs increase. A variety of problems in Computer Science fall under the complexity class of those that can be solved in "Nondeterministic Polynomial" Time, or NP - this means that a classical deterministic Turing Machine-style computer has no efficient way of solving them. Such problems include:</p>
 				<ul>
-					<li>Object detection</li>
-					<li>Image classification</li>
-					<li>Voice recognition</li>
-					<li>Machine translation</li>
+					<li>Boolean Satisfiability</li>
+					<li>Prime Factorisation</li>
+					<li>Travelling Salesman Problem</li>
+					<li>Optimal Rubik's Cube Solving</li>
 				</ul>
-				These advances open up a world of opportunities for innovation, ranging from self-driving cars to improved medical diagnoses. The aim of this article will be to explore some of these innovations and how they could affect society in a positive way.  
+				Problems like Boolean Satisfiability are what are known as <a href="https://en.wikipedia.org/wiki/List_of_NP-complete_problems"> NP-Complete </a>- this class of problems can all be reduced or transformed to each other, so finding an efficient algorithm to crack one automatically brings you most of the way to cracking the rest. 
 				</p>
-				<h3 style="font-size:32px"><b>Machine Translation</b></h3>
+				<h3 style="font-size:32px"><b>So what?</b></h3>
 				<p>
-				Most people are familiar with the concept of machine translation, however what might not be as well-known is that modern translation apps such as <a href="https://translate.google.co.uk/">Google Translate</a> and <a href="https://www.bing.com/translator">Bing Translator</a> actually incorporate machine learning at their core. High quality machine translation has the potential to unite parts of society that were previously divided by language barriers.
+				Determining whether there exists a Polynomial (P) time algorithm for NP-Complete problems would be a monumental scientific breakthrough. Closing the problem such that P does not equal NP would forever categorise some problems as not efficiently solvable, putting a mathematical upper bound on knowledge and computation that humanity would not be able to breach. However, breaking down the border between P and NP would not be completely positive. Things like protein folding, a problem in biology linked to finding cures for terminal illnesses, and other ridiculously hard problems would, overnight, become tractable (if not exactly easy). This would also have implications for fields that rely on intractable problems, like cryptography - encryption techniques like RSA that rely on large primes that cannot be easily factorised would lose their potency, as any old hacker with a powerful enough computer would be able to bypass this layer of security.
 				</p>
-				
-				<h3 style="font-size:32px"><b>Self-Driving Cars</b></h3>
-				<p>The concept of self-driving cars has existed for decades. Despite this, self-driving cars have only become possible due to relatively recent advancements in computer vision, aided by machine learning. These cars have the potential to provided an efficient mode of transport which is safer than human-driven cars. </p>
+				<img src="resources/compl.jpg" alt="Complexity Diagram">
 				</div>
 		</div>
 		<div class="card w-100">
