@@ -1,0 +1,23 @@
+﻿YANKI'S PAGE
+<!--This website is Excellent!
+This struture and theme of this websıte ıs great, ıt has some bıg font strıng and hıghlıght. Also have some lınk to your gıthub websıte and lınkın webgıte.
+Also have some useful vıdeo and ımages on ıt.
+To make thıs websıte better, my suggestıon ıs to add some lınks related to the topıcs, lıkes actıcles or news from another websıtes. Also, ıf you want to, you can add some code thatö
+when someone clınk the vıdeo lınk or websıte lınk, ıt wıll open a new tab ınstead of open ıt ın the same tab. It ıs more easıer for people to revıew both websıte. -->
+
+
+<!-- The websıte is very good.
+the structure of this website is good, it have some links from wekipidia and some video from YouTobe, but the images of this website doesn't work correctly. 
+To improve this websıte, it can add more images and add more css sources to make the website look better-->
+
+
+
+<!--The websıte is very good.
+The structure of this website is good, it has some links to Google Translate and Bing Translate, but if the website add some images and useful video, it will have a better look.
+Also. this website have search button, but it can't work correctly, if the problem is fixed, this website can enter informatıon on it and find informaton from another website, 
+that's will be great!--> 
+
+
+<!--thıs websıte is good.
+it has highlight sentences and also colored words, it make the website look better, but this website doesn't have images and
+some links from another websıte, also don't have video on it. But it has a nice look botton and the link to your github website, that's good!-->
